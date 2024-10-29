@@ -7,7 +7,7 @@ Reproduction steps:
 - Go to `chrome://extensions/` and enable developer mode
 - Load the app as an unpacked extension, using the folder `build/chrome-mv3-dev`
 - An input should be shown on lower left hand corner of every page you visit
-- Go to a website that has a global keyboard listener, such as Miro
+- Go to a website that has a global keyboard listener, such as Jira
 - Type inside the input
 
 What is expected:
