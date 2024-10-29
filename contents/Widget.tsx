@@ -1,13 +1,5 @@
 import cssText from "data-text:~style.css"
-import type { PlasmoCSConfig } from "plasmo"
 import { useState } from "react"
-
-export const config: PlasmoCSConfig = {
-  exclude_matches: [
-    "https://*.ads.dpgmedia.cloud/*",
-    "https://*.datastudio.dpgmedia.cloud/*"
-  ]
-}
 
 export const getStyle = () => {
   const style = document.createElement("style")
